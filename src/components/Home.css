@@ -1,0 +1,50 @@
+/* Home.css */
+
+.home-container {
+    background: #f8f9fa;
+  }
+  
+  .header {
+    background: #343a40;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .header-title {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .header-subtitle {
+    font-size: 24px;
+  }
+  
+  .presentation {
+    background: #fff;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .presentation-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .presentation-text {
+    font-size: 18px;
+  }
+  
+  .container {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+
+
+.my-photo {
+    max-width: 30%; /* Ajusta el tamaño de la imagen según tus necesidades */
+    display: block; 
+    margin: 0 auto; 
+  }
+  
+  
