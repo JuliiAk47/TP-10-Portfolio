@@ -1,33 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Header from './components/Header';
-import Footer from './components/Footer';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
 import Creaciones from './components/Creaciones';
 import Favoritos from './components/Favoritos';
 import Contacto from './components/Contacto';
-
-
+import Layout from './components/Layout';
 
 function App() {
   return (
-
-    // ...
     <Router>
-      <Header />
-      <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/creaciones" component={Creaciones} />
-        <Route path="/favoritos" component={Favoritos} />
-        <Route path="/contacto" component={Contacto}/>
-      </Switch>
-      <Footer />
+      <Routes>
+        <Route path='/' element={<Layout/>}>
+          <Route path="/home" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/creaciones" element={<Creaciones />} />
+          <Route path="/favoritos" element={<Favoritos />} />
+          <Route path="/contacto" element={<Contacto />} />
+        </Route>
+      </Routes>
     </Router>
-     
   );
 }
 
 export default App;
+
+
