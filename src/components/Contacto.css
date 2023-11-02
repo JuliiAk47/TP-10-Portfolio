@@ -1,0 +1,22 @@
+
+.form-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .form-div{
+    padding:20px;
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+
