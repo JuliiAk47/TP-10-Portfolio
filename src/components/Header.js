@@ -9,12 +9,12 @@ function Header() {
   return (
 <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand as={Link} to="/">Nuestro Portfolio</Navbar.Brand>
+        <h5><b>NUESTRO PORTFOLIO</b></h5>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link as={Link} to="/home">Inicio</Nav.Link>
-            <Nav.Link as={Link} to="/about">Acerca de Mí</Nav.Link>
+            <Nav.Link as={Link} to="/about">Acerca de Nosotros</Nav.Link>
             <Nav.Link as={Link} to="/creaciones">Mis Creaciones</Nav.Link>
             <Nav.Link as={Link} to="/favoritos">Favoritos</Nav.Link>
             <Nav.Link as={Link} to="/contacto">Contacto</Nav.Link>
